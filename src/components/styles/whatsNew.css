@@ -1,0 +1,144 @@
+.whatsNew__section {
+  background: linear-gradient(to top, rgba(43, 196, 182, 1), rgba(42, 179, 175, 0.9), rgba(40, 145, 161, 0.8), rgba(39, 130, 155, 0.7), rgba(38, 114, 148, 0.6), rgba(37, 103, 144, 0.5));
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100% 100% 100% 100% / 15% 15% 15% 15%;
+  position: relative;
+  overflow: hidden;
+}
+
+.title__whatsNew-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title__whatsNew-container img {
+  margin-top: 70px;
+  width: 60px;
+  height: auto;
+}
+
+.title__whatsNew {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(8, 33, 108, 0.94);
+  margin-bottom: -15px;
+}
+
+.subtitle__whatsNew{
+  margin-bottom: 60px;
+}
+
+.whatsNew__images-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.whatsNew__image img {
+  border-radius: 25px;
+  filter: brightness(0.6);
+}
+
+.whatsNew__image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.date__whatsNew {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: salmon;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px 15px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.number__date {
+  font-size: 30px;
+  font-weight: 750;
+}
+
+.author__blog-first {
+  position: absolute;
+  color: rgb(227, 224, 224);
+  bottom: 170px;
+  left: 20px;
+  font-size: 12px;
+}
+
+.author__blog {
+  position: absolute;
+  color: rgb(227, 224, 224);
+  bottom: 90px;
+  left: 20px;
+  font-size: 12px;
+}
+
+.whatsNew__number-first {
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.whatsNew__number {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.text__whatsNew {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: rgb(227, 224, 224);
+  font-size: 12px;
+}
+
+.whatsNew__btn {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(6, 192, 216);
+  color: rgb(1, 38, 54);
+  border: none;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 37px;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.whatsNew__btn-container {
+  text-align: center;
+}
+
+.whatsNew-button {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: salmon;
+  color: white;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-size: 8px;
+}
