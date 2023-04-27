@@ -8,6 +8,7 @@ import "./styles/theCrew.css";
 const TheCrew = () => {
   return (
     <section className="theCrew-container" id="the-crew">
+
       <div className="card">
         <div className="card__content">
           <h2 className="card__title">
@@ -51,7 +52,14 @@ const TheCrew = () => {
           </div>
 
         </div>
+        <div className="line__theCrew-container-bottom">
+        <div className="line__theCrew"></div>
+        </div>
+        <div className="line__theCrew-container-top">
+        <div className="line__theCrew"></div>
+        </div>
       </div>
+
     </section>
   );
 };

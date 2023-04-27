@@ -1,0 +1,278 @@
+.title__virtualOffice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title__virtualOffice-container .icon__title-virtualOffice {
+  margin-top: 40px;
+  width: 60px;
+  height: auto;
+}
+
+.title__virtualOffice {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(8, 33, 108, 0.94);
+  margin-bottom: -15px;
+}
+
+
+.virtualOffice__images-container {
+  margin-top: 25px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.virtualOffice__image img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.virtualOffice__btn {
+  grid-column: 2 / 3;
+}
+
+.memory1 {
+  width: 280px;
+  height: auto;
+  margin-left: -90px;
+}
+
+.memory2 {
+  width: 380px;
+  height: auto;
+  margin-left: -190px;
+}
+
+.memory3 {
+  width: 380px;
+  height: auto;
+  margin-left: -175px;
+}
+
+.memory4 {
+  width: 380px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+.memory5 {
+  width: 380px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+.memory6 {
+  width: 290px;
+  margin-top: -15px;
+  margin-left: -4px;
+  margin-right: 80px;
+}
+
+.virtualOffice__btn {
+  display: block;
+  padding: 8px 25px;
+  background-color: rgba(90, 211, 223, 255);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  margin: 0 auto;
+  margin-top: -2px;
+  margin-bottom: 15px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.line__virtualOffice {
+  margin: 0 auto;
+  width: 2px;
+  height: 70px;
+  background-color: salmon;
+}
+
+
+
+/*music*/
+
+.virtualOffice__music-images--container {
+  position: relative;
+}
+
+.background__music {
+  background: linear-gradient(to right, rgba(0, 1, 1, 255), rgba(37, 173, 160, 255));
+  width: 100%;
+  height: 73%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.virtualOffice__music-images--container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.virtualOffice__music-images-man {
+  width: 120%;
+  height: auto;
+  margin-left: 100px;
+  margin-bottom: -5px;
+}
+
+.virtualOffice__music-images-playlist {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 40px;
+  margin-right: 275px;
+}
+
+.virtualOffice__music-title {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 45px 350px;
+  line-height: 55px;
+}
+
+.first__word-music {
+  margin-left: -165px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .title__virtualOffice-container {
+    text-align: center;
+  }
+
+  .title__virtualOffice-container .icon__title-virtualOffice {
+    margin-top: 20px;
+    width: 50px;
+  }
+
+  .title__virtualOffice {
+    font-size: 2rem;
+  }
+
+  .virtualOffice__images-container {
+    margin-top: 20px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .memory1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .memory2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .memory3 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .memory4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .memory5 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .memory6 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .virtualOffice__btn {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+  }
+
+
+
+  
+
+    .virtualOffice__music-images--container {
+      position: relative;
+    }
+  
+    .background__music {
+      background: linear-gradient(to right, rgba(0, 1, 1, 255), rgba(37, 173, 160, 255));
+      width: 100%;
+      height: 73%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+  
+    .virtualOffice__music-images--container {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      justify-items: center;
+    }
+  
+    .virtualOffice__music-images-man {
+      width: 120%;
+      height: auto;
+      margin-left: 100px;
+      margin-bottom: -5px;
+    }
+  
+    .virtualOffice__music-images-playlist {
+      position: absolute;
+      width: 80px;
+      bottom: 0;
+      right: 120px;
+      margin-bottom: 25px;
+      margin-right: -20px;
+    }
+  
+    .virtualOffice__music-title {
+      position: absolute;
+      bottom: 0;
+      color: white;
+      font-weight: bold;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px 0px 10px 125px;
+      line-height: 30px;
+    }
+  
+    .first__word-music {
+      margin-left: -70px;
+    }
+}

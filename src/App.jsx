@@ -6,7 +6,7 @@ import Nav from './components/Nav'
 import Events from './components/Events'
 import TheCrew from './components/TheCrew'
 import WhatsNew from './components/WhatsNew'
-import VirtualOficce from './components/VirtualOficce'
+import VirtualOffice from './components/VirtualOffice'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Events />
       <TheCrew />
       <WhatsNew />
-      <VirtualOficce />
+      <VirtualOffice />
       <Contact />
       <Footer />
     </div>

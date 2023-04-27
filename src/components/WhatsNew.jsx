@@ -9,6 +9,7 @@ import "./styles/whatsNew.css";
 const WhatsNew = () => {
   return (
     <section className="whatsNew__section" id="what's-new">
+      <div className="line__whatsNew"></div>
       <div className="section__whatsNew grid--container">
         <div className="title__whatsNew-container">
           <img className="icon__title-whatsNew" src={icon_events} alt="" loading="lazy" />
@@ -60,9 +61,10 @@ const WhatsNew = () => {
 
         <div className="whatsNew__btn-container">
           <a className="whatsNew-button">
-            <h1 className="whatsNew-btn">MORE EVENTS</h1>
+            <h1 className="whatsNew-btn">FIND OUT MORE</h1>
           </a>
         </div>
+        <div className="line"></div>
       </div>
 
 

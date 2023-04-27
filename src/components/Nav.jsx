@@ -29,28 +29,28 @@ const Nav = () => {
 
             <li className="navbar__item">
               <a href="#the-crew" className='navi' onClick={handleNavClick}>
-                <i className="bi bi-house-door"></i>
+                <i className="bi bi-hand-index"></i>
                 <h1 className="navbar__link">THE CREW</h1>
               </a>
             </li>
 
             <li className="navbar__item">
               <a href="#events" className='navi' onClick={handleNavClick}>
-                <i className="bi bi-house-door"></i>
+                <i className="bi bi-calendar-event"></i>
                 <h1 className="navbar__link">EVENTS</h1>
               </a>
             </li>
 
             <li className="navbar__item">
               <a href="#what's-new" className='navi' onClick={handleNavClick}>
-                <i className="bi bi-house-door"></i>
+                <i className="bi bi-patch-question-fill"></i>
                 <h1 className="navbar__link">WHAT´S NEW</h1>
               </a>
             </li>
 
             <li className="navbar__item">
               <a href="#virtual-office" className='navi' onClick={handleNavClick}>
-                <i className="bi bi-house-door"></i>
+                <i className="bi bi-building-check"></i>
                 <h1 className="navbar__link">VIRTUAL <br /> OFFICE</h1>
               </a>
             </li>
@@ -68,18 +68,19 @@ const Nav = () => {
                 <h1 className="navbar__link">MARIA REINA PARISH</h1>
               </a>
             </li>
+            <div className='social__nave-i'>
+              <li className="home__social-item">
+                <a className="home__social-link instagram" href="" rel="nofollow noreferrer" target="_blank">
+                  <i className='bx bxl-instagram'></i>
+                </a>
+              </li>
 
-            <li className="home__social-item">
-              <a className="home__social-link instagram" href="https://www.instagram.com/cesar_triana73/" rel="nofollow noreferrer" target="_blank">
-                <i className='bx bxl-instagram'></i>
-              </a>
-            </li>
-
-            <li className="home__social-item">
-              <a className="home__social-link facebook" href="https://www.linkedin.com/in/cesar-augusto-triana-posso-483b59255/" rel="nofollow noreferrer" target="_blank">
-                <i className='bx bxl-facebook'></i>
-              </a>
-            </li>
+              <li className="home__social-item">
+                <a className="home__social-link facebook" href="" rel="nofollow noreferrer" target="_blank">
+                  <i className='bx bxl-facebook'></i>
+                </a>
+              </li>
+            </div>
           </ul>
 
           <i className='bx bx-x btn__close navbar__icon' onClick={() => setIsShowMenu(false)}></i>

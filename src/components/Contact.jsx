@@ -1,5 +1,5 @@
 import emailjs from "@emailjs/browser"
-import dinner from "../assets/img/event4.jpg";
+import communication from "../assets/img/online-communication.png";
 import "./styles/contact.css";
 
 const Contact = () => {
@@ -42,10 +42,10 @@ const Contact = () => {
             <textarea className="form__input message" placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
           </div>
 
-          <button className="form__btn">SENT</button>
+          <button className="form__btn">SEND</button>
         </div>
         <div className="form__image-container">
-          <img className="form__image form__image--1" src={dinner} alt="" loading="lazy" />
+          <img className="form__image form__image--1" src={communication} alt="" loading="lazy" />
           <span className="label__image-form"></span>
         </div>
       </form>

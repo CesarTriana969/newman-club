@@ -1,5 +1,5 @@
 .whatsNew__section {
-  background: linear-gradient(to top, rgba(43, 196, 182, 1), rgba(42, 179, 175, 0.9), rgba(40, 145, 161, 0.8), rgba(39, 130, 155, 0.7), rgba(38, 114, 148, 0.6), rgba(37, 103, 144, 0.5));
+  background: linear-gradient(to bottom, rgba(37, 87, 137, 255), rgba(43, 196, 182, 255));
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 }
 
 .title__whatsNew-container img {
-  margin-top: 70px;
+  margin-top: 20px;
   width: 60px;
   height: auto;
 }
@@ -25,17 +25,20 @@
   font-size: 2.5rem;
   font-weight: 700;
   color: rgba(8, 33, 108, 0.94);
-  margin-bottom: -15px;
+  margin-bottom: 5px;
 }
 
-.subtitle__whatsNew{
+.subtitle__whatsNew {
+  font-size: 13px;
   margin-bottom: 60px;
+  color: #f9e8e8d1;
 }
 
 .whatsNew__images-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
+  margin-bottom: 30px;
 }
 
 .whatsNew__image img {
@@ -53,7 +56,7 @@
   position: absolute;
   top: 0;
   left: 20px;
-  background-color: salmon;
+  background-color: rgba(255, 126, 84, 255);
   color: white;
   border-radius: 0 0 10px 10px;
   text-align: center;
@@ -87,7 +90,7 @@
 
 .whatsNew__number-first {
   position: absolute;
-  bottom: 150px;
+  bottom: 138px;
   left: 20px;
   color: white;
   text-transform: uppercase;
@@ -96,7 +99,7 @@
 
 .whatsNew__number {
   position: absolute;
-  bottom: 70px;
+  bottom: 55px;
   left: 20px;
   color: white;
   text-transform: uppercase;
@@ -105,7 +108,7 @@
 
 .text__whatsNew {
   position: absolute;
-  bottom: 40px;
+  bottom: 55px;
   left: 20px;
   color: rgb(227, 224, 224);
   font-size: 12px;
@@ -135,10 +138,24 @@
 .whatsNew-button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: salmon;
+  background-color: rgba(255, 126, 84, 255);
   color: white;
   border-radius: 30px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-bottom: 50px;
   font-size: 8px;
+}
+
+.line {
+  margin: 0 auto;
+  width: 2px;
+  height: 50px;
+  background-color: rgba(255, 126, 84, 255);
+}
+
+.line__whatsNew {
+  margin: 0 auto;
+  width: 2px;
+  height: 70px;
+  background-color: rgba(255, 126, 84, 255);
 }

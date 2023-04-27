@@ -15,8 +15,8 @@
   height: 450px;
   width: 1124px;
   margin-top: 40px;
-  margin-bottom: 60px;
-  border-left: 2px solid salmon;
+  margin-bottom: 140px;
+  border-left: 2px solid rgba(255, 126, 84, 255);
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 35px;
@@ -34,7 +34,7 @@
 
 .card__title {
   font-size: 65px;
-  color: blue;
+  color: rgba(36, 80, 134, 255);
   position: absolute;
   top: 0;
   left: 0;
@@ -50,7 +50,7 @@
 
 
 .card__title span:last-child {
-  color: salmon;
+  color: rgba(255, 126, 84, 255);
 
 }
 
@@ -61,13 +61,13 @@
 
 .card__button {
   display: inline-block;
-  padding: 8px 30px;
-  background-color: salmon;
+  padding: 10px 40px;
+  background-color: rgba(255, 126, 84, 255);
   color: white;
   border-radius: 30px;
   margin: 0 auto;
   margin-top: 20px;
-  font-size: 8px;
+  font-size: 11px;
   border: none;
 }
 
@@ -104,7 +104,7 @@
 .card__line {
   margin: 0;
   border: none;
-  border-top: 2px solid salmon;
+  border-top: 2px solid rgba(255, 126, 84, 255);
   width: 100%;
   position: absolute;
   top: 50%;
@@ -157,25 +157,80 @@
 }
 
 .card__icon-container>div:not(:last-child) {
-  border-right: 1px solid rgb(4, 4, 162);
+  border-right: 1px solid rgba(36, 80, 134, 255);
   padding-right: 20px;
   line-height: 0.5px;
 }
 
 .quantity {
   font-size: 45px;
-  color: salmon;
-  margin-bottom: 15px;
+  color: rgba(255, 126, 84, 255);
+  margin-bottom: 25px;
 }
 
 .description__icons-three {
   font-size: 14px;
-  color: rgb(4, 4, 162);
+  color: rgba(36, 80, 134, 255);
   margin-top: -10px;
 }
 
 .description__icons {
   font-size: 14px;
-  color: rgb(4, 4, 162);
+  color: rgba(36, 80, 134, 255);
   line-height: 15px;
+}
+
+.line__theCrew-container-bottom {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: -40%;
+}
+
+.line__theCrew {
+  margin: 0 auto;
+  width: 2px;
+  height: 70px;
+  background-color: rgba(255, 126, 84, 255);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .card__icon-container {
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+    width: 290px;
+  }
+
+  .card__description {
+    font-size: 8px;
+    color: #666;
+  }
+
+  .card__title {
+    font-size: 22px;
+  }
+
+  .card__image-container {
+    position: relative;
+    margin-top: -50%;
+    width: 50%;
+    height: 50%;
+  }
+
+    .card__button {
+      display: inline-block;
+      padding: 5px 20px;
+      background-color: rgba(255, 126, 84, 255);
+      color: white;
+      border-radius: 30px;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-size: 10px;
+      border: none;
+      margin-bottom: 50px;
+    }
 }

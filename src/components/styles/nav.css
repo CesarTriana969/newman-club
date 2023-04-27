@@ -24,7 +24,6 @@
     border-radius: 0 12px 12px 12px;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 1px 6px 1px #00000024;
-    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +77,7 @@
   border-radius: 30px;
 }
 
-.nav-button h1{
+.nav-button h1 {
   color: #000;
 }
 
@@ -159,27 +158,23 @@
 
 }
 
-@media screen and (min-width: 1200px) {
-
-  /* .navbar {
-    padding-left: 13%;
-    padding-right: 13%;
-  } */
-}
-
-
-
 @media (max-width: 767px) {
 
   .btn__close {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
+  .social__nave-i {
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+  }
+
   .navbar__list {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   .navbar__list li {
@@ -192,7 +187,7 @@
     font-size: 0.8em;
     color: gray;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 1px;
   }
 
   .navi {
@@ -218,32 +213,29 @@
     display: inline-block;
   }
 
-.navbar__item{
-  padding-bottom: 5px;
+  .navbar__item {
+    padding-bottom: 5px;
+  }
+
+
+  .navbar__item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 8px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar__item:hover::before {
+    transform: scaleX(1);
+  }
 }
 
-
-.navbar__item::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background-color: #fff;
-  border-radius: 8px;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-
-.navbar__item:hover::before {
-  transform: scaleX(1);
-}
-}
-
-
-
-/*icons*/
 .home__social-link {
   display: flex;
   justify-content: center;
@@ -251,7 +243,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: salmon;
+  background-color: rgba(255, 126, 84, 255);
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   box-shadow: 0 0 0 0 transparent;
 }
@@ -266,7 +258,7 @@
 
 .home__social-link:hover.facebook {
   background-color: #3b5998;
-    color: #fff;
+  color: #fff;
 }
 
 .home__social-link:hover.instagram {
