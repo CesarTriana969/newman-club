@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <div className="message__text">
-        <img className="logo_home" src={message_text} alt="" loading="lazy" />
+        <img className="logo_home-message" src={message_text} alt="" loading="lazy" />
       </div>
 
     </section>

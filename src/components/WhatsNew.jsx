@@ -56,7 +56,6 @@ const WhatsNew = () => {
               <span className="date__whatsNew"><span className="number__date">12 </span><br /> Aug <br /> 2016 </span>
             </div>
           </div>
-
         </div>
 
         <div className="whatsNew__btn-container">
@@ -66,8 +65,6 @@ const WhatsNew = () => {
         </div>
         <div className="line"></div>
       </div>
-
-
     </section>
   )
 }

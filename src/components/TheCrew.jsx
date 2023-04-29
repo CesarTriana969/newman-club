@@ -30,7 +30,7 @@ const TheCrew = () => {
             <img className="card__icon-smile" src={smile} alt="" loading="lazy" />
 
             <h2 className="quantity">165</h2>
-            <p className="description__icons">Happy freshman members</p>
+            <p className="description__icons">Happy freshman <br />  members</p>
 
           </div>
 
@@ -39,7 +39,7 @@ const TheCrew = () => {
             <img className="card__icon-twoPersons" src={twoPersons} alt="" loading="lazy" />
 
             <h2 className="quantity">13</h2>
-            <p className="description__icons">Wise Senior <br /> members</p>
+            <p className="description__icons descrip_2p">Wise Senior <br /> members</p>
 
           </div>
 
@@ -53,10 +53,10 @@ const TheCrew = () => {
 
         </div>
         <div className="line__theCrew-container-bottom">
-        <div className="line__theCrew"></div>
+          <div className="line__theCrew"></div>
         </div>
         <div className="line__theCrew-container-top">
-        <div className="line__theCrew"></div>
+          <div className="line__theCrew"></div>
         </div>
       </div>
 

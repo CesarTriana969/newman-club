@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { useState } from "react";
 import event1 from "../assets/img/event1.jpg";
 import event2 from "../assets/img/event2.jpg";
@@ -65,13 +64,12 @@ const Events = () => {
               </div>
             </div>
           </div>
-
         </div>
 
         <div className="item">
           <div className="overlay">
             <div className="content__overlay">
-              <h2>event 1</h2>
+              <h2>event 2</h2>
               <div className="line"></div>
               <div className="date">
                 <p>12</p>
@@ -86,7 +84,7 @@ const Events = () => {
         <div className="item">
           <div className="overlay">
             <div className="content__overlay">
-              <h2>event 1</h2>
+              <h2>event 3</h2>
               <div className="line"></div>
               <div className="date">
                 <p>12</p>
@@ -101,7 +99,7 @@ const Events = () => {
         <div className="item">
           <div className="overlay">
             <div className="content__overlay">
-              <h2>event 1</h2>
+              <h2>event 4</h2>
               <div className="line"></div>
               <div className="date">
                 <p>12</p>
@@ -112,17 +110,13 @@ const Events = () => {
           <div className="item__img">
             <img src={event4} alt="" loading="lazy" />
           </div>
-
         </div>
-
       </div>
-
 
       <div className="event__btn-container">
         <a className="event-button">
           <h1 className="event-btn">MORE EVENTS</h1>
         </a>
-
         <div className="invitation__message">
           <p>Let`s have fun, join us in our events. Find out more here</p>
         </div>
